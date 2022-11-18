@@ -136,3 +136,13 @@ h1,h2,h3,h4,h5{
     font-size: 2.5vw;
     padding: 2vw;
 }
+
+#email, #emailIcon{
+    vertical-align: middle;
+}
+
+#email{
+    padding-left: 2vw;
+    font-size: 3vw;
+}
+
