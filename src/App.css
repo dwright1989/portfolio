@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5{
 #description{
     background-color: var(--secondary-color);
     width: 80%;
-    margin: 20vw auto;
+    margin: 20vw auto auto auto;
     padding: 4vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -77,3 +77,40 @@ h1,h2,h3,h4,h5{
 }
 
 /*MY WORK*/
+#work{
+    width: 80%;
+    margin: auto;
+}
+
+#work>h3{
+    padding-bottom: 2vw;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6vw;
+}
+
+.project{
+    width: 35vw;
+    background-color: var(--secondary-color);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.project>img{
+    width: 35vw;
+}
+
+.project>p{
+    font-size: 3vw;
+    padding: 1vw 1vw 4vw 1vw;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    font-size: 3vw;
+    font-family: 'Playfair Display', serif;
+}
