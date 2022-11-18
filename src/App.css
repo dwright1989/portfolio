@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#description>h3{
+#description>h2{
     padding: 4vw;
 }
 
@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5{
     margin: auto;
 }
 
-#work>h3{
+#work>h2{
     padding-bottom: 2vw;
 }
 
@@ -113,4 +113,8 @@ h1,h2,h3,h4,h5{
     padding: 1vw;
     font-size: 3vw;
     font-family: 'Playfair Display', serif;
+}
+
+.social-icon{
+    width: 5vw;
 }

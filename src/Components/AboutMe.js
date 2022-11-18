@@ -13,7 +13,7 @@ function AboutMe() {
         <img src={profilePic} alt="profile"/>
       </div>
         <div id="description">
-          <h3>About Me</h3>
+          <h2>About Me</h2>
           <p>This is to be filled. This is to be filled.  This is to be filled.  
           This is to be filled.  This is to be filled.  This is to be filled.  
           This is to be filled.  This is to be filled.  This is to be filled.  

@@ -4,7 +4,7 @@ function Work() {
 
     return (
         <div id="work">
-        <h3>My Work</h3>
+        <h2>My Work</h2>
         <div id="projects">
             {Projects.map( (project) =>{
                     return <Project proj={project}/>
