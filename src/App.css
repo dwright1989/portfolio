@@ -1,30 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 
 :root{
-    --main-color: red;
+    --main-color: #4682B4;
     --secondary-color: white;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Playfair Display', serif;
+}
+
+.draw {
+    position: absolute;
+    top: -90px;
+    left: 0;
+    width: 100%;
+    z-index: -100;
+}
+
+.rectangle {
+    height: 300px;
+    background-color: var(--main-color);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+    border: 0;
+}
+
+
 
 /*ABOUT ME*/
 
 #aboutMe{
-    background-color: var(--main-color);
     padding: 10vw 0vw;
 }
 
 #aboutMe>h2{
-    text-align: center;
+    float: right;
     color: var(--secondary-color);
+    padding-right: 4vw;
 }
 
-#aboutMe>img{
+#imgDiv>img{
     width: 50vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#imgDiv{
+    padding-top: 3vw;
+    margin: 1vw 5vw;
     display: inline-block;
     float: left;
-    padding: 4vw;
+    
 }
 
 #description{
@@ -32,8 +65,13 @@
     width: 80%;
     margin: 20vw auto;
     padding: 4vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #description>h3{
     padding: 4vw;
+}
+
+#description>p{
+    font-size: 3vw;
 }
