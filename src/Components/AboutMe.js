@@ -8,7 +8,7 @@ function AboutMe() {
        <div className="draw">
             <div className="rectangle"></div>
         </div>
-      <h2>Debbie Wright</h2>
+      <h1>Debbie Wright</h1>
       <div id="imgDiv">
         <img src={profilePic} alt="profile"/>
       </div>

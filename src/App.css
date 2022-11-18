@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5{
     padding: 10vw 0vw;
 }
 
-#aboutMe>h2{
+#aboutMe>h1{
     float: right;
     color: var(--secondary-color);
     padding-right: 4vw;
@@ -117,4 +117,22 @@ h1,h2,h3,h4,h5{
 
 .social-icon{
     width: 5vw;
+}
+
+/*CONTACT*/
+#contactDiv{
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    margin-top: 4vw;
+}
+
+#contact{
+    width: 80%;
+    margin: auto;
+    padding: 4vw;
+}
+
+#contact>p{
+    font-size: 2.5vw;
+    padding: 2vw;
 }
