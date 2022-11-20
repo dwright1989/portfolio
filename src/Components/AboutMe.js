@@ -1,5 +1,7 @@
 
-import profilePic from "../Images/placeholderImage.jpg"
+import profilePic from "../Images/placeholderImage.jpg";
+import githubIcon from '../Images/github.jpg';
+import linkedinIcon from '../Images/linkedin.png';
 
 function AboutMe() {
 
@@ -25,7 +27,13 @@ function AboutMe() {
           This is to be filled.  This is to be filled.  This is to be filled.  
           This is to be filled.  This is to be filled.  This is to be filled.  
           This is to be filled.  This is to be filled.  This is to be filled.  </p>
+          <div id="aboutMeLinks">
+              <p><a href="https://github.com/dwright1989" target="_blank"><img src={githubIcon} alt="github" className="social-icon"/></a>
+              <a href="" target="_blank"><img src={linkedinIcon} alt="linkedin" className="social-icon"/></a></p>
+            
         </div>
+        </div>
+       
     </div>
   );
 }
