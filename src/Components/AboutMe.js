@@ -19,7 +19,12 @@ function AboutMe() {
           This is to be filled.  This is to be filled.  This is to be filled.  
           This is to be filled.  This is to be filled.  This is to be filled.  
           This is to be filled.  This is to be filled.  This is to be filled.  
-          This is to be filled.  This is to be filled.  This is to be filled.   </p>
+          This is to be filled.  This is to be filled.  This is to be filled. This is to be filled. This is to be filled.  This is to be filled.  
+          This is to be filled.  This is to be filled.  This is to be filled.  
+          This is to be filled.  This is to be filled.  This is to be filled.  
+          This is to be filled.  This is to be filled.  This is to be filled.  
+          This is to be filled.  This is to be filled.  This is to be filled.  
+          This is to be filled.  This is to be filled.  This is to be filled.  </p>
         </div>
     </div>
   );
