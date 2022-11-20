@@ -220,6 +220,14 @@ h1,h2,h3,h4,h5{
         flex: 0 0 80%;
     }
 
-
+    /*CONTACT*/
+    #contact>p{
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
     
+    #email{
+        padding-left: 1vw;
+        font-size: 1.5vw;
+    }
 }
