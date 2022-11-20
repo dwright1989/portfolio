@@ -155,9 +155,11 @@ h1,h2,h3,h4,h5{
 /* For desktop: */
 @media only screen and (min-width: 768px) {
 
+
     /*ABOUT ME*/
     #aboutMe{
         padding: 2vw 0vw;
+        margin-bottom: 2vw;
     }
     
     #aboutMe>h1{
@@ -191,5 +193,33 @@ h1,h2,h3,h4,h5{
     .social-icon{
         width: 2vw;
     }
+
+    /*MY WORK*/
+    #projects{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2vw;
+    }
+
+    .project{
+        width: 25vw;        
+    }
+    .project>img{
+        width: 25vw;
+    }
+
+    .project>p{
+        font-size: 1vw;
+        padding: 1vw 1vw 4vw 1vw;
+    }
+
+    .links{
+        font-size: 1.5vw;
+    }
+
+    .proj-title{
+        flex: 0 0 80%;
+    }
+
+
     
 }
