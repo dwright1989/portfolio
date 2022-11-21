@@ -3,7 +3,7 @@ const projects = [
         id: 0, 
         url: require("../Images/shopping-cart.png"), 
         name: "Shopping Cart", 
-        description: "Describe the project here",
+        description: "A fake shop website created using React.",
         repo: "https://github.com/dwright1989/shopping-cart",
         live: "https://dwright1989.github.io/shopping-cart/"
     },
@@ -11,7 +11,7 @@ const projects = [
         id: 1, 
         url: require("../Images/weather.png"), 
         name: "Weather App", 
-        description: "Describe the project here",
+        description: "A weather website which uses an API to present information based on the location chosen. Created using JavaScript.",
         repo: "https://github.com/dwright1989/Weather",
         live: "https://dwright1989.github.io/Weather/"
     },
@@ -19,7 +19,7 @@ const projects = [
         id: 2, 
         url: require("../Images/battleship.png"), 
         name: "Battleship Game", 
-        description: "Describe the project here",
+        description: "Classic Battleship Game playing against an AI which takes shots completely at random. Created using JavaScript.",
         repo: "https://github.com/dwright1989/Battleship",
         live: "https://dwright1989.github.io/Battleship/"
     },
@@ -27,7 +27,7 @@ const projects = [
         id: 3, 
         url: require("../Images/cv.png"), 
         name: "CV Creater", 
-        description: "Describe the project here",
+        description: "An application that allows users to input their information into a CV template. CreaSEd using React.",
         repo: "https://github.com/dwright1989/cv-app",
         live: "https://dwright1989.github.io/cv-app/"
     },
@@ -35,7 +35,7 @@ const projects = [
         id: 4, 
         url: require("../Images/memory.png"), 
         name: "Memory Game", 
-        description: "Describe the project here",
+        description: "Players must select each card only once to win the game. Created using React.",
         repo: "https://github.com/dwright1989/memory-game",
         live: "https://dwright1989.github.io/memory-game/"
         
