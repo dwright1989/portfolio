@@ -1,5 +1,3 @@
-
-import profilePic from "../Images/placeholderImage.jpg";
 import githubIcon from '../Images/github.jpg';
 import linkedinIcon from '../Images/linkedin.png';
 
@@ -11,9 +9,6 @@ function AboutMe() {
             <div className="rectangle"></div>
         </div>
       <h1>Debbie Wright</h1>
-      <div id="imgDiv">
-        <img src={profilePic} alt="profile"/>
-      </div>
         <div id="description">
           <h2>About Me</h2>
           <p>This is to be filled. This is to be filled.  This is to be filled.  
