@@ -141,6 +141,7 @@ hr{
 /*EXPERIENCE*/
 #experience>h2{
     text-align: center;
+    font-size: 2.5vw;
 }
 
 .exp-icons{
@@ -164,7 +165,7 @@ hr{
 }
 
 .exp-icon{
-    width: 3vw;
+    width: 8vw;
 }
 
 .exp-icons >h4{
@@ -274,6 +275,12 @@ hr{
 
     .exp-icons >h4{
         font-size: 1vw;
+    }
+    #experience>h2{
+        font-size: 1.5vw;
+    }
+    .exp-icon{
+        width: 3vw;
     }
 
     /*CONTACT*/
