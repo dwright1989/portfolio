@@ -1,6 +1,7 @@
 import AboutMe from '../Components/AboutMe';
 import Work from '../Components/Work';
 import Contact from '../Components/Contact';
+import Experience from '../Components/Experience';
 
 function Portfolio() {
 
@@ -8,6 +9,7 @@ function Portfolio() {
     <>
       <AboutMe/>
       <Work/>
+      <Experience/>
       <Contact/>
     </>
   );

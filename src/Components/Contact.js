@@ -14,6 +14,7 @@ function Contact() {
               <p><a href="https://github.com/dwright1989" target="_blank"><img src={githubIcon} alt="github" className="social-icon"/></a>
               <a href="" target="_blank"><img src={linkedinIcon} alt="linkedin" className="social-icon"/></a></p>
             
+          <p className="extra-small"> <a target="_blank" href="https://icons8.com/icon/54087/nodejs" className="extra-small">Icons by </a> <a target="_blank" href="https://icons8.com" className="extra-small">Icons8</a></p>
           </div>
     </div> 
   );
