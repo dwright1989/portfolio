@@ -27,7 +27,7 @@ const projects = [
         id: 3, 
         url: require("../Images/cv.png"), 
         name: "CV Creater", 
-        description: "An application that allows users to input their information into a CV template. CreaSEd using React.",
+        description: "An application that allows users to input their information into a CV template. Created using React.",
         repo: "https://github.com/dwright1989/cv-app",
         live: "https://dwright1989.github.io/cv-app/"
     },
